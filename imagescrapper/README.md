@@ -1,10 +1,11 @@
-scrapper1.py - worksover API based fetch execute cycle 
+scrapper.py
+Description:
+This script works by reading a local HTML file. Users must manually paste the HTML skeleton (e.g., fetched from Zyte.com) into the designated file (http_response_body.html). The script then parses the HTML and downloads the images found.
 
-whereas scrapper.py - works just based on reading the HTML file, where it inolves manual pasting of HTML skeleton code into this file from zyte.com
+scrapper2.py
+Description:
+This enhanced script targets the srcset attribute that lists multiple image URLs along with their resolution multipliers. It selects the candidate with the highest multiplier—thus ensuring that the highest resolution image is downloaded.
 
-scrapper2.py - "srcset" (which typically lists multiple image URLs with their resolutions), the code now selects the candidate with the highest multiplier 
-output images are stored under the folder (downloaded_images)
-
-Improvisations
+Improvisations at scrapper 2 
 => high resolution images to be needed for scrapped data, so make sure to attain its original image, rather than thumbnail image as of whole 
 =>when runned, multiple times the code resturn output images in the same directory, resulting in confusion, so better to alter the code to create new directories for each run (resuting in low confusion)
