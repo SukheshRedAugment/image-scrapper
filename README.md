@@ -4,7 +4,6 @@ whereas scrapper.py - works just based on reading the HTML file, where it inolve
 
 output images are stored under the folder (downloaded_images)
 
-
-Improvisations:
-=> high res. images to be needed for scrapped data, so make sure to attain its original image, rather than thumbnail image as of whole 
+Improvisations
+=> high resolution images to be needed for scrapped data, so make sure to attain its original image, rather than thumbnail image as of whole 
 =>when runned, multiple times the code resturn output images in the same directory, resulting in confusion, so better to alter the code to create new directories for each run (resuting in low confusion)
